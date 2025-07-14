@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sports-store-backend
+    env: docker
+    repo: https://github.com/Manmeet077/sports-store-backend
+    plan: free
+    branch: main
+    dockerfilePath: Dockerfile
+    autoDeploy: true
